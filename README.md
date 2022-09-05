@@ -68,10 +68,14 @@ Love ❌ code ✅
 ```
 
 ## 🎉・Upcoming/enhancements
+```diff
 
 - Add proxies
 - Add bio
 - Make tokens last even longer
+- Add Email verification
+```
+
 
 ## 📄・License
 
