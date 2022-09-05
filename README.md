@@ -78,7 +78,7 @@ This project is licensed under the GPL General Public License v3.0 License
 
 ```diff
 v1.1.0 ⋮ 2022-09-05
-+ Added Main Script
++ Added Token Checker
 + Cleaned up Code
 
 v1 ⋮ 2022-09-05
