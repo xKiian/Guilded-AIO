@@ -1,0 +1,3 @@
+threaded
+colorama
+httpx
