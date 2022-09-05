@@ -64,6 +64,7 @@ Love ❌ code ✅
 - Add proxies
 - Add bio
 - Make tokens last even longer
+- Improve the spammer (make it faster)
 
 ## 📄・License
 
