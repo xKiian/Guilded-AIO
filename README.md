@@ -68,7 +68,7 @@ Love ❌ code ✅
 ```
 
 ## 🎉・Upcoming/enhancements
-```diff
+```sh-session
 
 - Add proxies
 - Add bio
