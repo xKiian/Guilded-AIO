@@ -29,7 +29,7 @@
   Guilded AIO was made by
 
 Love ❌ code ✅
-
+if you read this, star the repo
 </h2>
 
 ---
