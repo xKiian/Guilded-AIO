@@ -49,6 +49,14 @@ Love ❌ code ✅
 ```
 ---
 
+<p align="center"> 
+  <kbd>
+<img src="https://cdn.discordapp.com/attachments/1004679809365975100/1016428271409299577/unknown.png"></img>
+  </kbd>
+</p>
+
+---
+
 ## 🚀・Setup Twitch Acc Gen
 
 ```sh-session
