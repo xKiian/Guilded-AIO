@@ -17,6 +17,10 @@ class Util:
     def token_login(self, cookie: str):
         self.session.cookies.set('hmac_signed_session', cookie)
 
+    def check(self):
+        r = self.session.get(f'{self.base_url}/me?isLogin=false&v2=true')
+        return r
+        
     def join_server(self, invite_code: str):
         r = self.session.put(f'{self.base_url}/invites/{invite_code}', json={"type":"consume"})
         return r
@@ -30,7 +34,8 @@ class Util:
         return r
 
     def ping(self):
-        self.session.get(f'{self.base_url}/users/me/ping')
+        r = self.session.put(f'{self.base_url}/users/me/ping')
+        return r
 
     def set_pfp(self, pfp: str):
         r = self.session.post(f'{self.base_url}/users/me/profile/images', json={'imageUrl': pfp})

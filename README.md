@@ -48,15 +48,8 @@ Love ❌ code ✅
 ✔ Tokens last very long
 ```
 ---
-<p align="center"> 
-  <kbd>
-<img src="https://cdn.discordapp.com/attachments/1004679809365975100/1016395889281093762/unknown.png"></img>
-  </kbd>
-</p>
 
----
-
-## 🚀・Setup Guilded AIO
+## 🚀・Setup Twitch Acc Gen
 
 ```sh-session
 > downloas zip file
@@ -71,8 +64,6 @@ Love ❌ code ✅
 - Add proxies
 - Add bio
 - Make tokens last even longer
-- Improve the spammer (make it faster)
-- token joiner
 
 ## 📄・License
 
@@ -86,6 +77,10 @@ This project is licensed under the GPL General Public License v3.0 License
 ## 💭・ChangeLog
 
 ```diff
+v1.1.0 ⋮ 2022-09-05
++ Added Main Script
++ Cleaned up Code
+
 v1 ⋮ 2022-09-05
 + Added Main Script
 + Cleaned up Code

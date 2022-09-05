@@ -1,5 +1,4 @@
-# sry for the filename xd
-import os, binascii, httpx, random, string, time, threading, json, colorama, sys
+import random,time, threading, json
 from lib.console import Console
 from lib.utils import Util
 config = json.load(open('./input/config.json', 'r+'))
@@ -18,7 +17,7 @@ class Pfp(threading.Thread):
                 Console.printl(f'[+] set pfp of {self.cookie[:30]}')
             elif s.status_code == 429:
                 Console.debug(f'[*] {self.cookie[:30]} got a ratelimit')
-                time.sleep(5)
+                time.sleep(3)
                 self.start()
             else:
                 Console.printl(f'[-] failed to set pfp of {self.cookie[:30]}')

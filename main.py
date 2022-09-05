@@ -1,7 +1,9 @@
 import time, threading, os
 from lib.console import Console
-from modules import creator, joiner, onliner, statuser, pfp, spammer
+from modules import creator, joiner, onliner, statuser, pfp, spammer, checker
 
+def check(cookie):
+    checker.Checker(None, cookie).start()
 def spam(id, message, cookies):
     while True:
         for cookie in cookies:
@@ -9,12 +11,16 @@ def spam(id, message, cookies):
             time.sleep(0.2)
 def status(cookie):
     statuser.Statuser(None, cookie).start()
+
 def acccreator():
     creator.AccCreator(None).start()
+
 def join(cookie):
     joiner.Joiner(None, cookie).start()
+
 def online(cookie):
     onliner.Onliner(None, cookie).start()
+
 def main():
     os.system('cls' if os.name == 'nt' else 'clear')
     Console.logo()
@@ -83,6 +89,19 @@ def main():
             for i in range(2):
                     threading.Thread(target=spam, args=(id, message, cookies)).start()
                     time.sleep(1.5)
+    
+    elif x == "7":
+        open("./output/valid.txt", "w").close()# clear the file
+        with open('./output/cookies.txt', 'r') as f:
+            cookies = f.read().splitlines()
+            for cookie in cookies:
+                threading.Thread(target=check, args=(cookie,)).start()
+                time.sleep(0.02)
+        time.sleep(1)
+        if threading.active_count == 0:
+            Console.printl("[+] Checked all accounts")
+        time.sleep(1)
+        main()
     else:
         main()
 
