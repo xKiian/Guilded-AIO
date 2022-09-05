@@ -49,7 +49,7 @@ Love ❌ code ✅
 ```
 ---
 
-## 🚀・Setup Twitch Acc Gen
+## 🚀・Setup Guilded AIO
 
 ```sh-session
 > downloas zip file
