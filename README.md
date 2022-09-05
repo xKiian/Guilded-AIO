@@ -65,6 +65,7 @@ Love ❌ code ✅
 - Add bio
 - Make tokens last even longer
 - Improve the spammer (make it faster)
+- token joiner
 
 ## 📄・License
 
