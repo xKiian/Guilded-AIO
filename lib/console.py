@@ -16,7 +16,7 @@ class Console:
             print(f'{content}{Fore.RESET}'.replace('[+]', f'[{Fore.LIGHTGREEN_EX}+{Fore.RESET}]').replace('[*]', f'[{Fore.LIGHTYELLOW_EX}*{Fore.RESET}]').replace('[>]', f'[{Fore.CYAN}>{Fore.RESET}]').replace('[-]', f'[{Fore.RED}-{Fore.RESET}]'))
             lock.release()
     def logo():
-        os.system("title Guilded AIO ^| v1.1.0 ^| by xKian")
+        os.system(f"title Guilded AIO ^| v1.2.0 ^| by xKian ^| Tokens loaded: {len(open('./output/cookies.txt', 'r+').read().splitlines())}")
         print(Fore.BLUE + f"""
 
 

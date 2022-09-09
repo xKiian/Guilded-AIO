@@ -4,7 +4,7 @@ class Util:
     def __init__(self, proxy: str= None):
         self.base_url = "https://www.guilded.gg/api"
         self.session = requests.Session()
-        self.session.proxies = {"http": proxy, "https": proxy} if proxy else None
+        self.session.proxies = {"http": proxy, "https": proxy}
 
     
     def login(self, email: str, password: str): # getting the cookie was inspired from its-vichy c:
