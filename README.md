@@ -45,7 +45,7 @@ if you read this, star the repo
 ✔ Sets pfp 
 ✔ Fast spammer
 ✔ Free
-✔ Proxyless (Proxy mode coming soon)
+✔ Proxyless and Proxy support
 ✔ Tokens last very long
 ```
 ---
@@ -58,10 +58,10 @@ if you read this, star the repo
 
 ---
 
-## 🚀・Setup Guilded AIO
+## 🚀・Setup Twitch Acc Gen
 
 ```sh-session
-> downloas zip file
+> download zip file
 > install requirements
 > add invite code in config.json
 > run main.py
@@ -71,7 +71,6 @@ if you read this, star the repo
 ## 🎉・Upcoming/enhancements
 ```sh-session
 
-- Add proxies
 - Add bio
 - Make tokens last even longer
 - Add Email verification
@@ -90,6 +89,11 @@ This project is licensed under the GPL General Public License v3.0 License
 ## 💭・ChangeLog
 
 ```diff
+v1.2.0 ⋮ 2022-09-09
++ Added Proxy support
++ Added loaded accounts in title
++ Cleaned up Code
+
 v1.1.0 ⋮ 2022-09-05
 + Added Token Checker
 + Cleaned up Code
